@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Fonts --> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <!-- Font Awwsome(Icons)-->
+
+    <script src="https://kit.fontawesome.com/d94c7009f9.js" crossorigin="anonymous"></script>
+    
+    <title>Resume</title>
+
+</head>
+<body>
+    <div class="box">
+        <div class="header">
+            <div class="header-left">
+                <div class="name">
+                    <h1 class="First-Name">Nitish</h1>
+                    <h1 class="Last-Name">Kota</h1>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="email">
+                    <p>nitishkota123@gmail.com</p>
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="linkedin">
+                    <p>www.linkedin.com/in/nitishkota2699</p>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div class="github">
+                    <p>https://github.com/Nitishkota</p>
+                    <i class="fa-brands fa-square-github"></i>
+
+                </div>
+                <div class="phone">
+                    <p>+1 (505)5506322</p>
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="objective">
+            <div class="obj-head">
+                <i class="fa-duotone fa-bullseye"></i>
+                <h2>Objective</h2>
+            </div>
+            <p>Willing to work as a developer and seeking to develop a AI machine.Started as a Computer Science student and developed various skills. Exceptional in handling problems and finding solutions.
+                Good at Data Structures & Algorithms and good at programming languages such as C, C++,java,HTML,CSS etc. Good
+                at communication skills and can understand 4 different languages. Especially good at all sorting algorithms such as Heap
+                Sort, Merge Sort, Quick Sort, Line Intersection Algorithm etc.And also worked on graph algorithms and greedy algorithms. I
+                have done projects on Data mining using ML and published a research paper on Lethargy Detection during work using Keras
+                Deep learning. Worked on AWS cloud services during my undergrad as a course. And made some students to choose their
+                path towards cloud services. And done my project on 'A HYBRID OPTIMIZATION METHOD FOR OBSTACLE AVOIDANCE
+                AND TRACKING CONTROL'.
+                
+                <p>Keenly intelligent, well-organized, and an effective communicator</p>
+                
+                <p>Passionate about deep reinforcement learning</p>
+
+                <p>Designed and implemented solutions to complex data analysis problems</p>
+                
+                <p>Strong knowledge of programming languages and analytical skills.</p>
+
+                <p>Web developer creating unique, responsive websites that attract and retain a critical mass of customers</p>
+                
+                <p>Implemented features and updated content</p>
+                
+                <p>Proficient in C++ and OOP and Web technologies such as XML and LINQ</p>
+                
+                <p>Passionate developer with contributing to open-source projects and maintaining strict coding standards</p>
+                
+                <p>Involved in C++ open-source community</p></p>
+        </div>
+        <hr>
+        <div class="education">
+            <div class="ed-header">
+                <i class="fa-sharp fa-solid fa-school"></i>
+                <h2>Education</h2>
+
+            </div>
+            <table>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year of Passing or Expected Year</th>
+                    <th>Percentage or GPA</th>
+                </tr>
+                <tr>
+                    <td>Masters</td>
+                    <td>University of New Mexico</td>
+                    <td>2023</td>
+                    <td>3.0</td>
+                </tr>
+                <tr>
+                    <td>B.tech</td>
+                    <td>Gurukul Kangri University</td>
+                    <td>2021</td>
+                    <td>3.1</td>
+                </tr>
+                <tr>
+                    <td>High School</td>
+                    <td>ST.Mary's</td>
+                    <td>2015</td>
+                    <td>90</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="Skills">
+            <div class="Skill-head">
+                <i class="fa-sharp fa-solid fa-database"></i>
+                <h2>Skills</h2>
+            </div>
+            <ul>
+                <li>
+                    Python
+                </li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="achievements">
+            <div class="ach-head">
+                <i class="fa-solid fa-star"></i>
+                <h2>Achievements</h2>
+            </div>
+            <p>Publication on Lethargy Detection during work using Keras Deep Learning</p>
+            <p>https://ieeexplore.ieee.org/document/9785330</p>
+            <p>Workshop in Robotics and IOT</p>
+            <p>Internship on Internet of Things and Machine Learning using Python</p></p>
+        </div>    
+    </div>
+    
+</body>    
+
+</html>
