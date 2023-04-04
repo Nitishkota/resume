@@ -1,145 +1,772 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-    <!-- Google Fonts --> 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <!-- Font Awwsome(Icons)-->
+  <title>MyPortfolio</title>
 
-    <script src="https://kit.fontawesome.com/d94c7009f9.js" crossorigin="anonymous"></script>
-    
-    <title>Resume</title>
-    
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
 </head>
+
 <body>
-    <div class="box">
-        <div class="header">
-            <div class="header-left">
-                <div class="name">
-                    <h1 style="color:#000008" class="First-Name">Nitish</h1>
-                    <h1 class="Last-Name">Kota</h1>
-                </div>
-            </div>
-            <div class="header-right">
-                <div class="email">
-                    <p>nitishkota123@gmail.com(https://nitishkota.github.io/ - My portfolio Website)</p>
-                    <i style="color:crimson" class="fa-regular fa-envelope"></i>
-                </div>
-                <div class="linkedin">
-                    <p>www.linkedin.com/in/nitishkota</p>
-                    <i style="color:blue" class="fa-brands fa-linkedin"></i>
-                </div>
-                <div class="github">
-                    <p>https://github.com/Nitishkota</p>
-                    <i class="fa-brands fa-square-github"></i>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="" />
+            <span>
+              My Portfolio
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                </div>
-                <div class="phone">
-                    <p>+1 (505)5506322</p>
-                    <i style="color:cadetblue" class="fa-solid fa-phone"></i>
-                </div>
-            </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-2">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Skills</a>
+              </li>
 
-        </div>
-        <hr>
-        <div class="objective">
-            <div class="obj-head">
-                <i class="fa-duotone fa-bullseye"></i>
-                <h2 style="color:tomato">About</h2>
-            </div>
-            <p>Seeking to work as a developer.Highly motivated computer science student with experience in various programming
-                languages such as Python, Java, and C++. Especially good at all sorting algorithms such as Heap
-                Sort, Merge Sort, Quick Sort, Line Intersection Algorithm etc.And also worked on graph algorithms and greedy algorithms. I
-                have done projects on Data mining using ML and published a research paper on Lethargy Detection during work using Keras
-                Deep learning. Worked on AWS cloud services during my undergrad as a course. And made some students to choose their
-                path towards cloud services. And done my project on 'A HYBRID OPTIMIZATION METHOD FOR OBSTACLE AVOIDANCE
-                AND TRACKING CONTROL'.
-                
-                <p style="color: black;">Keenly intelligent, well-organized, and an effective communicator</p>
-                
-                <p>Passionate about deep reinforcement learning</p>
-
-                <p>Designed and implemented solutions to complex data analysis problems</p>
-                
-                <p>Strong knowledge of programming languages and analytical skills.</p>
-
-                <p>Web developer creating unique, responsive websites that attract and retain a critical mass of customers</p>
-                
-                <p>Implemented features and updated content</p>
-                
-                <p>Proficient in C++ and OOP and Web technologies such as XML and LINQ</p>
-                
-                <p>Passionate developer with contributing to open-source projects and maintaining strict coding standards</p>
-                
-                <p>Involved in C++ open-source community</p></p>
-        </div>
-        <hr>
-        <div class="education">
-            <div class="ed-header">
-                <i style="color: rgb(218, 126, 6);"class="fa-sharp fa-solid fa-school"></i>
-                <h2 style="color:blueviolet;">Education</h2>
-
-            </div>
-            <table>
-                <tr>
-                    <th>Degree</th>
-                    <th>Institution</th>
-                    <th>Year of Passing or Expected Year</th>
-                    <th>Percentage or GPA</th>
-                </tr>
-                <tr>
-                    <td>Masters</td>
-                    <td>University of New Mexico</td>
-                    <td>2023</td>
-                    <td>3.0</td>
-                </tr>
-                <tr>
-                    <td>B.tech</td>
-                    <td>Gurukul Kangri University</td>
-                    <td>2021</td>
-                    <td>3.1</td>
-                </tr>
-                <tr>
-                    <td>High School</td>
-                    <td>ST.Mary's</td>
-                    <td>2015</td>
-                    <td>90</td>
-                </tr>
-            </table>
-        </div>
-        <hr>
-        <div class="Skills">
-            <div class="Skill-head">
-                <i style="color:blue" class="fa-sharp fa-solid fa-database"></i>
-                <h2 style="color:blueviolet">Skills</h2>
-            </div>
-            <ul>
-                <li>
-                    Python
-                </li>
-                <li>Java</li>
-                <li>C++</li>
-                <li>HTML</li>
-                <li>CSS</li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Me</a>
+              </li>
             </ul>
-        </div>
-        <hr>
-        <div class="achievements">
-            <div class="ach-head">
-                <i style="color:goldenrod" class="fa-solid fa-star"></i>
-                <h2 style="color:blueviolet">Achievements</h2>
+            <div class="user_option">
+              <div class="login_btn-container">
+                <a href="">
+                  search
+                </a>
+              </div>
+              <form class="form-inline my-2 my-lg-0">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
             </div>
-            <p>Publication on Lethargy Detection during work using Keras Deep Learning</p>
-            <p style="color:blue">https://ieeexplore.ieee.org/document/9785330</p>
-            <p>Workshop in Robotics and IOT</p>
-            <p>Internship on Internet of Things and Machine Learning using Python</p></p>
-        </div>    
+          </div>
+          <div class="call_btn">
+            <a href="">
+              Email : nitishkota123@gmail.com
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <section class="slider_section">
+      <div class="container-fluid">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-3 col-lg-2 offset-md-2">
+                  <div class="detail-box">
+                    <h1>
+                      Nitish Kota
+                    </h1>
+                    <p>
+                      Welcome to my personal website!
+                    </p>
+                    <div>
+                      <a href="">
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7 col-lg-8">
+                  <div class="img-box">
+                    <img src="images/Nitish Kota.png"  alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-3 col-lg-2 offset-md-2">
+                  <div class="detail-box">
+                    <h1>
+                      About
+                    </h1>
+                    <p>
+                      As a Computer Science student, I have developed a wide range of skills and I am currently seeking a role as a developer to work on developing AI machines. I excel in problem-solving and have a strong ability to find solutions. My proficiency in Data Structures & Algorithms and programming languages such as C, C++, Java, HTML, CSS, etc. is exceptional.  
+                    </p>
+                    <div>
+                      <a href="">
+                        Read More
+
+
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7 col-lg-8">
+                  <div class="img-box">
+                    <img src="images/hero.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-3 col-lg-2 offset-md-2">
+                  <div class="detail-box">
+                    <h1>
+                      Projects
+                    </h1>
+                    <p>
+                      Research paper on Lethargy Detection during work using Keras Deep learning.
+                      I gained hands-on experience in AWS cloud services as part of a course projects.
+                      A Hybrid Optimization Method For Obstacle Avoidance And Tracking Control.
+
+                    </p>
+                    <div>
+                      <a href="">
+                        Read More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7 col-lg-8">
+                  <div class="img-box">
+                    <img src="images/Nitish Kota1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- custom menu -->
+  <div class="custom_menu-container">
+    <div class="container">
+      <div class="custom_menu">
+        <ul class="navbar-nav ">
+          <li class="nav-item active">
+            <a class="nav-link pl-0" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Skills</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Me</a>
+          </li>
+        </ul>
+        <div class="user_option">
+          <div class="login_btn-container">
+            <a href="">
+              Search
+            </a>
+          </div>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+          </form>
+        </div>
+      </div>
     </div>
-    
-</body>    
+  </div>
+
+  <!-- custom menu -->
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="img-box">
+            <img src="images/Me.png" alt="" />
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="detail-box">
+            <div class="custom_heading-container">
+              <h2>
+                About 
+              </h2>
+            </div>
+
+            <p>
+              My knowledge of sorting algorithms such as Heap Sort, Merge Sort, Quick Sort, Line Intersection Algorithm, etc. is exceptional. I have also worked on graph algorithms and greedy algorithms. As part of my academic projects, I have explored Data Mining using Machine Learning and published a research paper on Lethargy Detection during work using Keras Deep Learning. During my undergraduate studies, I gained hands-on experience in AWS cloud services as part of a course.
+            </p>
+            <div>
+              <a href="">
+                About More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- do section -->
+  <section class="do_section layout_padding-bottom">
+    <div class="container">
+      <div class="custom_heading-container">
+        <h2>
+          Skills
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="content-box bg-red">
+            <div class="img-box">
+              <img src="images/idea.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h6>
+                Technologies
+              </h6>
+              <p>
+                AWS Cloud, Microsoft 365, Azure Cloud, Jira
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="content-box bg-green">
+            <div class="img-box">
+              <img src="images/controller.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h6>
+                Programming Languages
+              </h6>
+              <p>
+                Java, C++, Python, Bash, HTML, CSS, Javascript.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="content-box bg-red">
+            <div class="img-box">
+              <img src="images/monitor.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h6>
+                Databases
+              </h6>
+              <p>
+                MySQL, Oracle, Microsoft SQL Server, and PostgreSQL.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="content-box bg-green">
+            <div class="img-box">
+              <img src="images/rocket-ship.png" alt="" />
+            </div>
+            <div class="detail-box">
+              <h6>
+                Concepts
+              </h6>
+              <p>
+                Data Structures and Algorithms.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end do section -->
+  <!-- skill section -->
+
+  <section class="skill_section layout_padding2">
+    <div class="container">
+      <div class="custom_heading-container">
+        <h2>
+          My Skills
+        </h2>
+      </div>
+      <div class="skill_padding">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="box">
+              <div class="circle" id="circles-1"></div>
+              <h6>
+                Coding
+              </h6>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="box">
+              <div class="circle" id="circles-2"></div>
+              <h6>
+                Technologies
+              </h6>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="box">
+              <div class="circle" id="circles-3"></div>
+              <h6>
+                Web Development
+              </h6>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="box">
+              <div class="circle" id="circles-4"></div>
+              <h6>
+                Cloud 
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end skill section -->
+
+  <!-- portfolio section -->
+  <section class="portfolio_section layout_padding">
+    <div class="container">
+      <div class="custom_heading-container">
+        <h2>
+          My Portfolio
+        </h2>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="box b-1">
+                <img src="images/Web.png" alt="" />
+                <h4>
+                  Website Design
+                </h4>
+              </div>
+              <div class="box b-2">
+                <img src="images/Coding.png" alt="" />
+                <h4>
+                  Coding
+                </h4>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="box b-3">
+                <img src="images/Robot.png" alt="" />
+                <h4>
+                   Robotics
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="box b-4">
+                <img src="images/Cloud.png" alt="" />
+                <h4>
+                  Cloud Development
+                </h4>
+              </div>
+              <div class="box b-5">
+                <img src="images/Computional.png" alt="" />
+                <h4>
+                  Solving Computional Problems
+                </h4>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="box b-6">
+                <img src="images/Newtech.png" alt="" />
+                <h4>
+                  New Technologies
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end portfolio section -->
+
+  <!-- client section -->
+  <section class="client_section layout_padding-bottom">
+    <div class="container">
+      <div class="custom_heading-container">
+        <h2>
+          Achievements
+        </h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="client_container layout_padding2">
+              <div class="client_box b-1">
+                <div class="client-id">
+                  <div class="img-box">
+                    <img src="images/" alt="" />
+                  </div>
+                  <div class="name">
+                    <h5>
+                       Internships
+                    </h5>
+                    <p>
+                      Role : Python Developer
+                    </p>
+                  </div>
+                </div>
+                <div class="detail">
+                  <p>
+                    Intership, NITK, Surathkal
+                    Worked on Internet of Things and ML using Python. 
+                  </p>
+                </div>
+              </div>
+              <div class="client_box b-2">
+                <div class="client-id">
+                  <div class="img-box">
+                    <img src="images/" alt="" />
+                  </div>
+                  <div class="name">
+                    <h5>
+                      Publications
+                    </h5>
+                    <p>
+                      Lethargy Detection during work using Keras Deep learning
+                    </p>
+                  </div>
+                </div>
+                <div class="detail">
+                  <p>
+                    https://ieeexplore.ieee.org/document/9785330
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="client_container layout_padding2">
+              <div class="client_box b-1">
+                <div class="client-id">
+                  <div class="img-box">
+                    <img src="images/" alt="" />
+                  </div>
+                  <div class="name">
+                    <h5>
+                       Others
+                    </h5>
+                    <p>
+                      Concepts
+                    </p>
+                  </div>
+                </div>
+                <div class="detail">
+                  <p>
+                    Strong understanding of Core Java SE 8 concepts like Streams API, Lambda functions, Functional programming.
+                    Experienced in implementing open-source MVC architecture like Struts 2.0, Spring MVC, and ORM Frameworks like Spring JPA with Spring Data, Hibernate, IBatis MyBatis, and Spring JDBC.
+                    Proficient in front-end web development using HTML5, XML, XHTML, CSS, CSS3(Sass,Less), Bootstrap, JavaScript, DOM, jQuery, Ajax, JSON, and JSP.
+                  </p>
+                </div>
+              </div>
+              <div class="client_box b-2">
+                <div class="client-id">
+                  <div class="img-box">
+                    <img src="images/" alt="" />
+                  </div>
+                  <div class="name">
+                    <h5>
+                      Personal Website
+                    </h5>
+                    <p>
+                      Project
+                    </p>
+                  </div>
+                </div>
+                <div class="detail">
+                  <p>
+                    My personal website is a significant project that showcases my skills and achievements. This project demonstrates my ability to plan, design, and implement a website using my technical knowledge of web development technologies, such as HTML, CSS, and JavaScript
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="client_container layout_padding2">
+              <div class="client_box b-1">
+                <div class="client-id">
+                  <div class="img-box">
+                    <img src="images/" alt="" />
+                  </div>
+                  <div class="name">
+                    <h5>
+                      Doctors.co.in
+                    </h5>
+                    <p>
+                      Role : Developer
+                    </p>
+                  </div>
+                </div>
+                <div class="detail">
+                  <p>
+                    I worked as a website developer for a Doctors.co.in where I was responsible for designing and implementing features on the website. This role required me to use my technical skills to create and maintain a responsive and user-friendly website.
+
+                    As a website developer, I worked collaboratively with the design team to ensure that the website had a visually appealing layout and was easy to navigate. I also used my coding skills to implement and test website functionality, ensuring that the website was compatible with multiple browsers and devices.
+                  </p>
+                </div>
+              </div>
+              <div class="client_box b-2">
+                <div class="client-id">
+                  <div class="img-box">
+                    <img src="images/client-2.jpg" alt="" />
+                  </div>
+                  <div class="name">
+                    <h5>
+                      New Technologies
+                    </h5>
+                    <p>
+                      Robotics
+                    </p>
+                  </div>
+                </div>
+                <div class="detail">
+                  <p>
+                    I have attended a workshop and worked on Robotics and Internet of Things
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- contact section -->
+
+  <section class="contact_section ">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-2 col-md-5 offset-md-1">
+          <h2 class="custom_heading">Contact Us</h2>
+          <form action="#">
+            <div>
+              <input type="text" placeholder="Name" />
+            </div>
+            <div>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div>
+              <input type="text" placeholder="Pone Number" />
+            </div>
+            <div>
+              <input type="text" class="message-box" placeholder="Message" />
+            </div>
+            <div class="d-flex  mt-4 ">
+              <button>
+                SEND
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 px-0">
+          <div class="img-box">
+            <img src="images/contact.jpg" alt="" class="w-100" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+  <!-- info section -->
+  <section class="info_section layout_padding-top layout_padding2-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="info_links pl-lg-5">
+            <h4>
+              Menu
+            </h4>
+            <ul>
+              <li class="active">
+                <a href="index.html">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="about.html">
+                  About
+                </a>
+              </li>
+              <li>
+                <a class="" href="portfolio.html">Portfolio </a>
+              </li>
+              <li>
+                <a class="" href="service.html">Skills</a>
+              </li>
+              <li>
+                <a href="contact.html">
+                  Contact Me
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info_contact">
+            <h4>
+              Location
+            </h4>
+            <div>
+              <img src="images/location.png" alt="" />
+              <p>
+                New Mexico, USA.
+              </p>
+            </div>
+            <div>
+              <img src="images/telephone.png" alt="" />
+              <p>
+                ( +1 5055506322 )
+              </p>
+            </div>
+            <div>
+              <img src="images/envelope.png" alt="" />
+              <p>
+                nitishkota123@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="info_social">
+            <h4>
+              Social Link
+            </h4>
+            <div class="social_container">
+              <div>
+                <a href="">
+                  <img src="images/facebook-logo.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="https://twitter.com/nitish_kota" target="_blank">
+                  <img src="images/twitter-logo.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="https://github.com/Nitishkota" target="_blank">
+                  <img src="images/Git.png" alt="" />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.linkedin.com/in/nitishkota/" target="_blank">
+                  <img src="images/linkedin-sign.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info_form">
+            <h4>
+              Enter email
+            </h4>
+            <form action="#">
+              <input type="text" placeholder="Enter Your Email" />
+              <button type="submit">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section">
+    <p>
+      &copy; 2023 All Rights Reserved By
+      <a href="https://html.design/">Nitish Kota</a>
+    </p>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/circles.min.js"></script>
+  <script src="js/custom.js"></script>
+
+
+</body>
 
 </html>
